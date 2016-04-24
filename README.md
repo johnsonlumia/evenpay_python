@@ -14,12 +14,12 @@ EVENPAY IS A PROGRAM THAT CAN CALCULATE RELATIVE AMOUNT OF MONEY WE NEED TO PAY 
 
 ```python
 def main():
-    text = ("%d is the first %s. " % (1, "integer"))
+    name = input("What is your name? ")
+    text = ("Hello, %s." % (name))
     print(text)
 
 if __name__ == '__main__':
     main()
-
 ```
 
 * the use of  
