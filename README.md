@@ -1,7 +1,6 @@
-
 DESIGN OF A PROGRAM CALLED EVENPAY
 ==================================
----
+
 EVENPAY IS A PROGRAM THAT CAN CALCULATE RELATIVE AMOUNT OF MONEY WE NEED TO PAY
 TO SOMEONE WHO PAID FOR THE GROUP EARLIER. THE POINT OF THIS IS TO SAVE TIME OF
 GETTING CALCULATION JOBS DONE, AT THE SAME TIME, MAKE IT AS A PROGRAMMING
@@ -16,7 +15,7 @@ print("output")
 ```
 * input statement
 ```python
-input = input(" -->")
+value = input(" -->")
 ```  
 * the use of  
 ```python
@@ -27,6 +26,9 @@ if __name__ == '__main__':
   * ```%d``` - integer
   * ```%s``` - string
   * ```%f``` - float
+```python
+text = ("%d is a number, %s is a string, and %f is a float." % (1, "h", 1.1))
+```
 * Example of file code
 ```python
 def main():
